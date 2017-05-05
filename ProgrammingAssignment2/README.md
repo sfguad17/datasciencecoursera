@@ -34,21 +34,21 @@ function in R. For example, if `X` is a square invertible matrix, then
 For this assignment, assume that the matrix supplied is always
 invertible.
 
-### Examples: Example usage
-#### 1.
+### Examples: Running the functions
+
 m <- matrix(c(0, 2, 1, 5), nrow = 2, ncol = 2, byrow = TRUE)
 mCM <- makeCacheMatrix(m)
 cacheSolve(mCM)
 cacheSolve(mCM)
 
-#### 2.
+- - - -
 a <- matrix(c(3,1,2,1),nrow=2,ncol=2)
 b <- matrix(c(8,2),nrow=2,ncol=1)
 aCM<- makeCacheMatrix(a)
 cacheSolve(aCM,b)
 cacheSolve(aCM,b)
 
-#### 3.
+- - - -
 x <- stats::rnorm(16)
 dim(x) <- c(4,4)
 xCM<-makeCacheMatrix(x)
