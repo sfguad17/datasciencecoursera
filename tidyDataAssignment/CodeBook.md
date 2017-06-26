@@ -14,25 +14,25 @@ After the feature selection, the data set was reduced to the following features.
 
 1. subject - an integer identifier
 2. activity - a string representing one of the following activities:
-··* WALKING, 
-··* WALKING_UPSTAIRS, 
-··* WALKING_DOWNSTAIRS, 
-··* SITTING, 
-··* STANDING, 
-··* LAYING
+  * WALKING, 
+  * WALKING_UPSTAIRS, 
+  * WALKING_DOWNSTAIRS, 
+  * SITTING, 
+  * STANDING, 
+  * LAYING
 3. time and frequency variables for the mean and standard deviation of the following:
-··* body acceleration triaxial  
-··* body acceleration jerk triaxial 
-··* body acceleration magnitude triaxial
-··* body acceleration jerk magnitude triaxial
-··* body gyroscope triaxial 
-··* body gyroscope jerk triaxial
-··* body gyroscope magnitude triaxial
-··* body accerlation jerk magnitude
-··* body gryoscope magnitude
-··* body gryoscope jerk magnitude
-··* body body accerlation jerk magnitude
-··* body body gryoscope magnitude
-··* body body gryoscope jerk magnitude
-··* gravity acceleration triaxial
+  * body acceleration triaxial  
+  * body acceleration jerk triaxial 
+  * body acceleration magnitude triaxial
+  * body acceleration jerk magnitude triaxial
+  * body gyroscope triaxial 
+  * body gyroscope jerk triaxial
+  * body gyroscope magnitude triaxial
+  * body accerlation jerk magnitude
+  * body gryoscope magnitude
+  * body gryoscope jerk magnitude
+  * body body accerlation jerk magnitude
+  * body body gryoscope magnitude
+  * body body gryoscope jerk magnitude
+  * gravity acceleration triaxial
 ··* gravity acceleration magnitude
